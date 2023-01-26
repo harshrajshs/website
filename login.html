@@ -9,7 +9,7 @@
 <body style="background-color: LightGray;">
 <div2>
         <button style="margin-left: 1200px;" onclick="window.location.href = 'about.html'" type="button">About Us</button>
-        <button style="margin-left: 10px;" onclick="window.location.href = 'registration.php'" type="button">Register</button>
+        <button style="margin-left: 10px;" onclick="window.location.href = 'registration.html'" type="button">Register</button>
 </div2>
 <h1 style="text-align: center;">SRIJAN HOME SCHOOL</h1><br>
 
@@ -58,7 +58,7 @@ if(!empty($_POST["email"]) && !empty($_POST["pass"]))
     echo "password is $password\n";
     if($gmail == $email && $password == $pass)
     {
-      header( "Location:loggedin.php" );
+      header( "Location:loggedin.html" );
       $check3=1;
     }
   }
